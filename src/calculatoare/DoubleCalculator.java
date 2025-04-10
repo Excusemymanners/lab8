@@ -1,4 +1,5 @@
 package calculatoare;
+import org.junit.jupiter.api.*;
 
 public class DoubleCalculator extends ACalculator {
 
@@ -25,4 +26,6 @@ public class DoubleCalculator extends ACalculator {
         state = (Double) state * number;
         return this;
     }
+
+
 }
